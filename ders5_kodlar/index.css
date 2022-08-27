@@ -1,0 +1,42 @@
+fieldset{
+    width: 500px;
+    background-color: aqua;
+    border: solid bron;
+}
+legend{
+    font-size: 15px;
+}
+.hobiler{
+    width: 200px;
+}
+body{
+    text-align: center;
+    
+}
+textarea{
+    resize: none;
+}
+input:focus{
+    border: solid 2px;
+}
+input:focus::placeholder{
+    color: red;
+}
+button{
+    background-color: blue;
+    color: white;
+    height: 20px;
+    width: 200px;
+}
+p{
+    color: rgb(255, 4, 4);
+}
+legend{
+    color: rgb(86, 13, 255);
+}
+select,option{
+    color: blue;
+}
+.optg{
+    color: red;
+}

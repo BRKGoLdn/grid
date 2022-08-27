@@ -1,0 +1,23 @@
+ul{
+    color:darkmagenta;
+}
+
+dt{
+    color:deeppink;
+}
+
+dd{
+    color:brown;
+}
+
+ol{
+    color:blueviolet;
+    
+}
+
+body{
+    background-color: rgb(85, 212, 216);
+}
+p{
+    text-align: center;
+}

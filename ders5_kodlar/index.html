@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel BILGILER FORMU</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    <h1> Kayit Olma</h1>
+    <center><form action="kayitdan.html">
+        <fieldset>
+            <legend> Kişisel Bilgiler</legend>
+            <p> Adınız:</p>
+            <input id="ad" type="text"  placeholder="Adınızı Girin">
+            <p> Yaşınız:</p>
+            <input id="yas"type="number" placeholder="Yaşınızı Girin">
+
+        </fieldset>
+        <fieldset>
+            <legend> Kullanıcı Bilgiler:</legend>
+            <p> Mail Adresiniz:</p>
+            <input type="email" placeholder="Email'inizi Girin">
+            <p> Şifreniz:</p>
+            <input type="password" placeholder="Şifrenizi Girin">
+        </fieldset>
+        <fieldset>
+            <legend>Adres Bilgileri</legend>
+            
+            <textarea name="adres_bilgileri" id="text_area" cols="50" rows="5"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend> İlgi Alanları</legend>
+            <input type="text" placeholder="Temel alan">
+            <br>
+            <br>
+            <fieldset class="hobiler">
+                <legend> Hobiler</legend>
+                <input type="checkbox">
+                <label for=""> Kitap Okuma</label>
+                <br>
+                <input type="checkbox">
+                <label for=""> Sinema</label>
+                <br>
+                <input type="checkbox">
+                <label for=""> Tiyatro</label>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend> Sınıf</legend>
+            <input type="radio"  name="sinif" >
+            <label for="">9.Sınıf</label>
+            <br>
+            <input type="radio" name="sinif" >
+            <label for="">10.Sınıf</label>
+            <br>
+            <input type="radio"  name="sinif" >
+            <label for="">11.Sınıf</label>
+            <br>
+            <input type="radio"  name="sinif" >
+            <label for="">12.Sınıf</label>
+
+        </fieldset>
+        <fieldset>
+            <legend> Gelişme Talep  edilen Projeler</legend>
+            <p> Bir Proje Adı Seçin:</p>
+            <select name="" id="selector">
+                
+                <optgroup label="IT" class="optg">
+                    <option value="Full_Stack_Developter">Full Stack Developter</option>
+                    <option value="Data_Science"> Data Science</option>
+                </optgroup>
+                <optgroup label="Web Developter" class="optg">
+                    <option value="Front_end">Front-end</option>
+                    <option value="Back_end" > Back-end</option>
+                </optgroup>
+                
+                <optgroup label="Python" class="optg">
+                    <option value="">Pygame</option>
+                    <option > Flask</option>
+                </optgroup>
+
+            </select>
+        </fieldset><fieldset>
+            <legend> Sosyal Medya Tercihiniz</legend>
+            <label for="">Kullandığınız Sosyal Medya Kanalları:</label>
+            <input type="text" id="secenek">
+            <datalist id="secenek">
+                <option value="Twitter"></option>
+            </datalist>
+            
+            
+        </fieldset>
+
+        <input type="submit" value="Click" onclick="clicked()">
+
+    </form></center>
+   
+
+       
+
+    
+</body>
+</html>

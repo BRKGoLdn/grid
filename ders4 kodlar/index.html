@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basvuru Formu</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<!-- 
+    <h1> FORM ELEMANLARI</h1>    
+    <form action="">
+        <label for=""> Username:  </label>
+        <input type="text" placeholder="Enter Your Name">
+        
+        <br> <br>
+        <label for=""> Password:</label>
+        <input type="password" placeholder=" Enter Your Password">
+        <br> <br>
+        <label for=""> Education Information: </label>
+        <br>
+        
+        <input type="radio" id="Elemantery" value="Elemantery" name="School">
+        <label for="Elemantery">Elemantery</label>
+
+        <input type="radio" id="High_School" value="High_School" name="School">
+        <label for="High_School">High School</label>
+        
+        <input type="radio" id="Senior" value="Senior" name="School">
+        <label for="Senior">Senior</label>
+        
+        <br> <br>
+
+        <label for="">Color:</label>
+        <input type="color">
+        
+
+    </form> -->
+
+   <div>
+    <input class="renk_secim"type="text" id="color" placeholder=" Information Bar Color ">
+    
+    <input class="renk_secim" type="text" placeholder="Header Color" id="header_info">
+   <button onclick="clicked()" id="submit_color"> Submit</button>
+</div>
+
+
+    
+
+    <center><table style="background-color: gray;" width="700px" id="table">
+        <tr id="header" style="background-color: orange;">
+            <td>
+                <img src="./avatar-men.png" alt="">
+            </td>
+            <td >
+                <h1>Basvuru Formu</h1>
+            </td>
+            <br>
+        </tr>
+        <tr>
+            <form action="">
+                <td>
+                <label for="" class="baslik">Adiniz:</label>
+                <input type="text" placeholder="Adinizi Girin Lutfen">
+                <br>
+                <br>
+                <label for="" class="baslik" >Soyadiniz:</label>
+                <input type="text" placeholder="Soyadiniz Girin Lutfen">
+                <br><br>
+                <label for="" class="baslik">Sifre:</label>
+                <input type="password" placeholder="Sifrenizi Girin Lutfen">
+                <br><br>
+                
+                <label for="" class="baslik">Yas :</label>
+                <input   type="Number" placeholder="Yasinizi Girin Lutfen"> 
+                <br><br>
+                
+                <label for="" class="baslik">Dogum Tarihi:</label>
+                <input   type="date" placeholder="Dogum Tarihinizi  Girin Lutfen">
+                <br><br>
+                <label for="" class="baslik">Telefon:</label>
+                <input type="tel"  placeholder="444-444-44-44 "
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+             
+                <br><br>
+                <label for="" class="baslik"> Email:</label>
+                <input   type="email" placeholder=" Emailinizi Girin Lutfen">
+                <br><br>
+
+                
+
+                <label for="" class="baslik">Meslek:</label>
+                <input type="text" placeholder="Mesleginizi Girin Lutfen">
+                
+                <br><br>
+
+                <label for="" class="baslik">Cinsiyet:</label>
+                <br>
+                <input class="radio"type="radio" name="cinsiyet" value="erkek" >
+                <label for="erkek" class="cinsiyet_secenekler">Erkek</label>
+                <br>
+                <input class="radio" type="radio" name="cinsiyet" value="kadin">
+                <label for="kadin"class="cinsiyet_secenekler">Bayan</label>
+                <br><br>
+
+                <label for="" class="baslik">Sevdigniz Araba:</label>
+                <br>
+                <input type="checkbox" class="checkbox"   value="BMW">
+                <label for="BMW" class="araba_secenekler" >BMW</label>
+                <br>
+                <input type="checkbox" class="checkbox"  value="Mercedes">
+                <label for="Mercedes" class="araba_secenekler" >Mercedes</label>
+                <br>
+                <input type="checkbox" class="checkbox"   value="Rolls-Royce">
+                <label for="Rolls-Royce" class="araba_secenekler" >Rolls-Royce</label>
+                <br>
+                <br>
+
+                <label for="" class="baslik"> Sevdiginiz Renk:</label>
+                <input type="color" >
+                <br><br>
+                <label for="" class="baslik"> Belgelerinizi Yukleme :</label>
+                <input type="file" class="file" >
+
+                <br>
+                <br>
+
+                <br>
+                <br>
+
+                <center><input type="submit" class="submit">
+                <input type="reset" class="reset"></center>
+            
+
+            
+            </td>
+        </form>
+            
+        </tr>
+    </table></center>
+
+    <script>
+    function clicked(){
+        
+        var renk =  document.getElementById("color").value
+        console.log(renk)
+        document.getElementById("table").style.background=renk  
+        if(renk ==""){
+            document.getElementById("table").style.background="gray"
+        }
+        var renk_secim2 = document.getElementById("header_info").value
+        document.getElementById("header").style.background=renk_secim2
+        if(renk_secim2 ==""){
+            document.getElementById("header").style.background="orange"
+        }
+        
+    }
+
+    </script>
+
+</body>
+</html>

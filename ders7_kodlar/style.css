@@ -1,0 +1,29 @@
+/* id için # ,classlara ulaşmak için . */
+
+#ust-resim{
+    margin-left:250px;
+    border:3px solid gray;
+}
+
+.resim-yazisi{
+    margin-left:300px;
+    margin-top:-250px;
+}
+
+#ust-yazi{
+    font-family: 'Satisfy', cursive;
+    color:chocolate;
+    font-size:20px;
+}
+
+#baslik{
+    font-family: 'Aboreto', cursive;
+}
+
+input{
+    background-color: inherit;
+    padding:10px;
+    border:2px solid white;
+    font-size: 14px;
+    font-weight:bolder ;
+}
