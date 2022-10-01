@@ -1,0 +1,34 @@
+/*  EXAMPLE CSS CODE */
+
+
+.flex_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+    /* justify-content: flex-end;  en sağa alcak */
+    /* justify-content: center; ortalamak için kullanılır */
+    /* justify-content: space-between; Hepsiniz arasina esit bosluk veriyo */
+    justify-content: space-around;  /* Hem kenarlari hemde bosluklari esit bosluk yapar*/
+    align-items: center;  /* Icindekileri ortalar*/
+    /* align-items: flex-end;   En Asağıya sıraladı */
+    /* align-items: baseline; Yazıların altı veya büyüjlüğü ayarlar  */
+    
+    /* Flex direcetion dizme sirasini ayarlar */
+    /* flex-direction: column;  Yukardan Asagiya */
+    /* flex-direction: column-reverse; Yukardan asagiya ama ters seklinde */
+    flex-direction: row; /* Soldan Sagiya ayarlar*/ 
+    /* flex-direction: row-reverse; Sagdan Sola ayarlar */
+
+
+    /* Flex-wrap Alt satilari indirmek icin kullaniriz */
+    /* flex-wrap:nowrap ;  Tum hepsini bir siraya koyar */
+    flex-wrap: wrap;   /* Buyuklugune gore alt satira atarak ayarlar*/
+    /* flex-wrap: wrap-reverse;  wrap ayni seyi yapar ama ters dizel  */
+    
+}
+
+
+.flex_container > div > p {
+    font-size: 20px;
+} 

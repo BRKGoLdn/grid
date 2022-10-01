@@ -1,0 +1,133 @@
+.header_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.header_container> div>img{
+    width: 100px;
+
+}
+ul li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 25px;
+    color: white;
+    font-size: 2vw;
+    
+}
+.noen{
+    margin-left: none;
+    margin-right: none;
+    width: 100%;
+}
+div{
+    width: 75%;
+    margin-left:auto ;
+    margin-right:auto  ;
+}
+.birinci_div{
+    background-color: rgb(84, 84, 84);
+    border-top: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    width: 75%;
+    padding-bottom:3px ;
+    padding-top: 5px;
+    
+}
+.infos{
+    font-size: 15px;
+    margin-right: 100px;
+}
+#ana_sayfa_Div{
+    border-bottom: 2px solid orangered;
+}
+h4 , .numara{
+    text-align: center;
+}
+.kiz_kulesi{
+    
+    border: 2px solid white;
+    width: 72.5vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.images{
+    width: 75.0%;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    font-size: 3vw;
+    
+}
+.ana_sayfa{
+    font-size: 15px;
+}
+.tur_img{
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+.tur_adi{
+    text-align: center;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+    
+}
+.tur_div{
+    width: 300px;
+    height: 270px;
+    padding: 5px;
+    
+
+}
+.tur_container{
+    display: flex;
+    flex-wrap: wrap;
+
+}   
+.gun{
+    text-align: center;
+    font-size: 14px;
+}
+.fiyat{
+    text-align: right;
+    background-color:rgb(71, 71, 71);
+    color: white;
+}
+.indiv{
+    border: 1px solid black;
+    height: 270px;
+}
+.alt_div{
+    background-color: rgb(84, 84, 84);
+    border-bottom: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    color: white;
+    margin-bottom: 50px;
+    position: relative;
+}
+span{
+    color: rgb(255, 111, 0);
+    text-decoration: underline;
+    
+}
+.alt_info{
+    padding-top: 10px;
+    text-align: center;
+}
+.egitim{
+    width: 150px;
+    float: right;
+    margin-right: 100px;
+    position: absolute;
+}
